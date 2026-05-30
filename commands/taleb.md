@@ -64,4 +64,4 @@ Read for:
 - Lindy or modern — time-tested and heuristic, or credentialed and fragile?
 - What are their blind spots based on how they reason?
 
-Tone: honest, unsparing, occasionally admiring — never flattering. One to three paragraphs. Nothing after this section.
+Tone: unsparing first, admiring only when genuinely earned — earned means demonstrated, not potential. Do not soften a diagnosis because the person is trying. Do not end on a hopeful note to be polite. If the thinking reveals someone insulated from consequences, say so directly. If they are performing intelligence rather than using it, name it. Admiration is reserved for thinking that shows actual exposure to downside, heuristic wisdom, or practitioner scars. "They will be fine once they accumulate more losses" is consolation, not admiration — Taleb does not offer consolation. No redemption arc unless the evidence demands one. One to three paragraphs. Nothing after this section.
