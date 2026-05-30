@@ -1,6 +1,6 @@
 # taleb-mirror — Claude Code Skill
 
-A custom [Claude Code](https://claude.ai/code) skill that runs any input through the intellectual framework of Nassim Nicholas Taleb — trader, mathematician, and author of the Incerto series.
+A custom [Claude Code](https://claude.ai/code) slash command that runs any input through the intellectual framework of Nassim Nicholas Taleb — trader, mathematician, and author of the Incerto series.
 
 ## What it does
 
@@ -14,20 +14,27 @@ Pass it any note, idea, or observation. It returns three things:
 
 ## Install
 
+### Vanilla Claude Code (no plugins required)
+
 ```bash
-mkdir -p ~/.claude/skills/taleb
-cp SKILL.md ~/.claude/skills/taleb/SKILL.md
+mkdir -p ~/.claude/commands
+curl -o ~/.claude/commands/taleb.md https://raw.githubusercontent.com/nik-sobolev/taleb-mirror/main/commands/taleb.md
 ```
 
-Restart Claude Code. The `/taleb` skill will be available.
+Restart Claude Code. `/taleb` is ready.
+
+### gstack users
+
+```bash
+mkdir -p ~/.claude/skills/taleb
+curl -o ~/.claude/skills/taleb/SKILL.md https://raw.githubusercontent.com/nik-sobolev/taleb-mirror/main/SKILL.md
+```
 
 ## Usage
 
 ```
 /taleb [paste your note here]
 ```
-
-Or invoke `/taleb` with no args to read your active Obsidian note (requires the Obsidian Local REST API MCP plugin).
 
 ## Inspired by the Incerto
 
